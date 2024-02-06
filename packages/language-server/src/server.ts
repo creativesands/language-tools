@@ -261,16 +261,16 @@ export function startServer(options?: LSOptions) {
                 executeCommandProvider: clientSupportApplyEditCommand
                     ? {
                           commands: [
-                              'function_scope_0',
-                              'function_scope_1',
-                              'function_scope_2',
-                              'function_scope_3',
-                              'constant_scope_0',
-                              'constant_scope_1',
-                              'constant_scope_2',
-                              'constant_scope_3',
-                              'extract_to_svelte_component',
-                              'Infer function return type'
+                              '_function_scope_0',
+                              '_function_scope_1',
+                              '_function_scope_2',
+                              '_function_scope_3',
+                              '_constant_scope_0',
+                              '_constant_scope_1',
+                              '_constant_scope_2',
+                              '_constant_scope_3',
+                              '_extract_to_svelte_component',
+                              '_Infer function return type'
                           ]
                       }
                     : undefined,
